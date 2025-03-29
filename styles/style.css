@@ -8,8 +8,9 @@ header{
 }
 
 .top-intro{
-    padding: 90px 20px 0;
+    padding: 60px 20px 0;
     color: #fff;
+    text-shadow: 0 0 10px #000;
 }
 
 .intro-head-text{
