@@ -1,0 +1,36 @@
+.top{
+    margin-bottom: 20px;
+}
+
+.main-article{
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.blog-heading{
+    margin: 10px 0;
+}
+
+.blog0-img{
+    background-image: url('../images/head-bg.png');
+}
+
+.sub-heading{
+    font-weight: 700;
+}
+
+.recent{
+    text-align: center;
+}
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #4545dd;
+}
+
+.about-heading{
+    line-height: 35px;
+    margin: 20px 0;
+}
