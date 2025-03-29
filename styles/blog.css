@@ -24,10 +24,13 @@
 }
 
 .profile-pic{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: #4545dd;
+    background-image: url('../images/amob.jpeg');
+    background-position: center;
+    background-size: cover;
 }
 
 .about-heading{
