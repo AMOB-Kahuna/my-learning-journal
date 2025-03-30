@@ -37,3 +37,28 @@
     line-height: 35px;
     margin: 20px 0;
 }
+
+.profile-sect{
+    margin: 0 20px;
+}
+
+@media (min-width: 655px) {
+    
+    .main-article{
+        padding: 0 100px;
+    }
+
+    .blog0-img{
+        height: 500px;
+        margin: 20px 0;
+        background-position: bottom;
+    }
+
+    .profile-sect{
+        display: grid;
+        margin: 0 50px 40px;
+        gap: 30px;
+        grid-template-columns: 1fr 7fr;
+        align-items: center;
+    }
+}

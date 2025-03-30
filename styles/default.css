@@ -83,7 +83,7 @@ p{
 .blogs{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 30px;
     margin-top: 20px;
     padding: 0 20px;
 }
@@ -119,4 +119,44 @@ footer .footer-head-text{
 footer p,
 footer .footer-head-text{
     font-size: 12px;
+}
+
+@media (min-width: 655px) {
+
+    time,
+    p{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .logo-sect,
+    .nav ul{
+        padding: 20px 50px;
+    }
+
+    .logo{
+        width: 30px;
+    }
+
+    .nav ul{
+        font-size: 1rem;
+        gap: 30px;
+    }
+
+    .blogs{
+        margin-top: 50px;
+        padding: 0 50px;
+    }
+
+    h2{
+        font-size: 40px;
+        margin: 5px 0;
+    }
+
+    .img{
+        margin-bottom: 15px;
+    }
 }
